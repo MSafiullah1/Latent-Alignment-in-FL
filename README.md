@@ -47,30 +47,9 @@ Our experimental results demonstrate:
 
 ---
 
-## How to Use
-1. Clone the repository:  
-   ```bash
-   git clone <repository_url>
-   cd <repository_directory>
-   ```
-2. Install dependencies:  
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run experiments:  
-   ```bash
-   python main.py
-   ```
-4. View results: Check the logs and output files for metrics and visualizations.
-
----
-
 ## Contributors
-- Muhammad Abubakr Butt  
-
----
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+- Muhammad Safiullah
+- Mustafa Abbas
+- Muhammad Ibrahim Farrukh
 
 --- 
