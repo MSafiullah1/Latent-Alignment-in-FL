@@ -1,7 +1,3 @@
-Here’s a concise and professional README for your project: 
-
----
-
 # Federated Learning with Latent Space Alignment Techniques
 
 ## Overview
