@@ -64,7 +64,7 @@ We introduce two **novel alignment techniques** designed for FL:
 - Projects out conflicts → ensures updates are **cooperative, not destructive**.
 - Strongly reduces client drift while maintaining predictive accuracy.
 
-![FedGHBL Workflow](Latent-Alignment-in-FL/Images/fedghbl.png)  
+![FedGHBL Workflow](Images/fedghbl.png)  
 _Figure: Workflow of Gradient Harmonization Between Classification and Alignment Losses._
 
 ---
@@ -76,14 +76,14 @@ _Figure: Workflow of Gradient Harmonization Between Classification and Alignment
 - Local models learn to “fool” the discriminator, making their latents **indistinguishable from global latents**.
 - Dynamically aligns client representations across rounds.
 
-![Adversarial Feature Alignment](Latent-Alignment-in-FL/Images/adverserial.png)  
+![Adversarial Feature Alignment](Images/adverserial.png)  
 _Figure: Adversarial Feature Matching for aligning local and global latent distributions._
 
 ---
 
 ### 🔹 Combined Workflow
 
-![Latent Alignment Workflow](Latent-Alignment-in-FL/Images/Workflow.png)  
+![Latent Alignment Workflow](Images/Workflow.png)  
 _Figure: Latent Alignment Workflow showing integration of alignment and classification losses._
 
 ---
@@ -104,7 +104,7 @@ _Figure: Latent Alignment Workflow showing integration of alignment and classifi
 - **FedAdversarial** improves over both FedAvg and SCAFFOLD.
 - **FedGHBL is the best performer**, achieving **up to +11% accuracy gains** under severe heterogeneity.
 
-![Accuracy Over Communication Rounds](Latent-Alignment-in-FL/Images/accuracies.png)  
+![Accuracy Over Communication Rounds](Images/accuracies.png)  
 _Figure: Accuracy trends over communication rounds (α = 0.5). FedGHBL achieves the best performance._
 
 ---
@@ -138,13 +138,13 @@ _Figure: Accuracy trends over communication rounds (α = 0.5). FedGHBL achieves 
 
 ### Drift Analysis
 
-![FedAvg Drift](Latent-Alignment-in-FL/Images/FA_Losses_Client_1_final.png)  
+![FedAvg Drift](Images/FA_Losses_Client_1_final.png)  
 _Figure: FedAvg – classification loss and KL divergence drift trend._
 
-![SCAFFOLD Drift](Latent-Alignment-in-FL/Images/SCAFFOLD_Losses_Client_1_alpha_0.5_final.png)  
+![SCAFFOLD Drift](Images/SCAFFOLD_Losses_Client_1_alpha_0.5_final.png)  
 _Figure: SCAFFOLD – classification loss and KL divergence drift trend._
 
-![FedAvg + KL Drift](Latent-Alignment-in-FL/Images/KL_Losses_Client_1_alpha_0.5_final.png)  
+![FedAvg + KL Drift](Images/KL_Losses_Client_1_alpha_0.5_final.png)  
 _Figure: FedAvg + KL – drift drastically reduced (~500x lower KL divergence)._
 
 ---
